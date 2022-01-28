@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+	<title>Modal Demo</title>
+	<!-- internal style -->
+	<style type="text/css">
+		.row, .row div {
+			border:1px solid #000;
+		}
+	</style>
+
+  </head>
+  <body>
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-md-6">
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#readmoremodal">
+				  Read more about us
+				</button>
+			</div>
+			<div class="col-md-6">
+				<a href="#" data-bs-toggle="modal" data-bs-target="#subscribemodal">subscribe now</a>
+			</div>
+		</div>
+	</div>
+	
+	
+<!-- Modal -->
+<div class="modal fade" id="readmoremodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">About XYZ Limited</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+	  <img src="images/tw.png" alt="image" style="float:left; width:200px;" class="img-fluid me-2" />
+	  <p>
+        As the battle for the 2023 presidential ticket thickens, some Nigerians have expressed divergent opinions on the alleged planned defection of former President, Goodluck Jonathan, from the Peoples Democratic Party, PDP, to the ruling All Progressives Congress, APC.
+
+DAILY POST reports that there have been speculations that the ex-president may dump the opposition party for the APC in a bid to emerge as the platform’s flag bearer in the 2023 presidential poll to complete his second term, which he lost to President Muhammadu Buhari in 2015.
+
+The defection rumour was fueled by Goodluck’s constant visit to the State House to meet with President Buhari as some APC governors are said to be wooing the former President to join the party.
+
+Recall that Jonathan, on October 6, met behind closed-doors with President Buhari at the Presidential Villa, Abuja. The agenda of the meeting was not made known to journalists.
+
+Similarly, Jonathan, who is ECOWAS’ Special Envoy to the Republic of Mali on efforts by West African leaders to restore stability to the country, was at the Villa on December 30 and January 6, to discuss issues with the President.
+
+Meanwhile, Jonathan’s former aide, Reno Omokri, had severally debunked the rumour, saying “God forbid” that his ex-boss would join the ruling party which he believes is more corrupt than any other platform.
+		</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Subscribe Modal -->
+<div class="modal fade" id="subscribemodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Subscribe Now</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Bootstrap JS -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+# multimedia
+multimedia/algorithm.mp4
+
+# do not track bootstrap folder
+bootstrap/
+
+# do not track my fontawesome folder
+fontawesome/
+
+# do not track my pdf resume
+docs/mywebpage.pdf
+
+# list of images 
+images/banner.jpg
+

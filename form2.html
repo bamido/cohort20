@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+	
+	<!-- internal style -->
+	<style type="text/css">
+		.row, .row div {
+			border:0px solid #000;
+		}
+	</style>
+
+  </head>
+  <body>
+	<div class="container-fluid">
+		<div class="row justify-content-center">
+			<div class="col-md-6">
+				<form method="post" action="">
+					<div class="row mb-3 mt-3">
+						<label class="col-md-3">Email Address</label>
+						<div class="col-md-9">
+							<input type="email" name="email" id="email" placeholder="enter email" class="form-control" />
+						</div>
+					</div>
+					
+					<div class="row mb-3">
+						<label class="col-md-3">Password</label>
+						<div class="col-md-9">
+							<input type="password" name="pswd" id="pswd" placeholder="enter password" class="form-control" />
+						</div>
+					</div>
+					
+					<div class="row">
+						<div class="col-md-9 offset-md-3">
+							<button type="submit" name="submit" class="btn btn-success">Log In</button>
+						</div>
+					</div>
+				
+				</form>
+			</div>
+		</div>
+	
+	</div>
+
+    <!-- Bootstrap JS -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

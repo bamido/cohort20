@@ -1,0 +1,36 @@
+/*other CSS properties*/
+
+/*import external css*/
+/*@import "konga.css";*/
+
+@import url("konga.css");
+
+*{
+	box-sizing: border-box;
+}
+
+header, footer, section, div {
+	/*border:1px solid #000;
+	padding:20px;*/
+}
+
+#wrapper{
+	width:80%;
+	margin: auto;
+}
+
+#ourservices{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.box{
+	width: 32%;	
+}
+
+#banner{
+	height: 200px;
+	background-image: url("../images/flowers.jpg");
+	background-position: bottom;
+}

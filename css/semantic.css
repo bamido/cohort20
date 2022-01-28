@@ -1,0 +1,42 @@
+/* CSS Demo*/
+
+header, footer, section, nav, div{
+	border:1px solid #000;
+	padding: 20px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+#logo{
+	width: 25%;
+	float: left;
+}
+
+#topmenu{
+	width: 75%;
+	float:right;
+}
+
+.clearboth{
+	clear:both;
+}
+
+.clearleft{
+	clear: left;
+}
+
+.clearright{
+	clear: right;
+}
+
+#aboutus{
+	width: 65%;
+	float: left;
+}
+
+#sidebar{
+	width: 35%;
+	float:right;
+}

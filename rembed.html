@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+	<title>Responsive Embed</title>
+	<!-- internal style -->
+	<style type="text/css">
+		.row, .row div {
+			border:1px solid #000;
+		}
+	</style>
+  </head>
+  <body>
+  
+	<div class="container">
+		<div class="row mt-3">
+			<div class="col-md-4">
+				A
+			</div>
+			<div class="col-md-4">
+				<div class="ratio ratio-16x9">
+					<iframe src="https://youtube.com/embed/4KAcNhxIl7Q" >
+					
+					</iframe>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="ratio ratio-4x3">
+					<video controls>
+						<source src="multimedia/algorithm.mp4" type="video/mp4" />
+					</video>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+    <!-- Bootstrap JS -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

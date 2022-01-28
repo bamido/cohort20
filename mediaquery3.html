@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Media query Demo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+		<style type="text/css">
+			*{
+				box-sizing: border-box;
+			}
+			body{
+				color: #fff;
+			}
+			#topmenu{
+				height:100px;
+				background-color: #000;
+
+			}
+			
+			#slider{
+				height:200px;
+				background-color: rgb(0,255,0);
+			}
+			
+			#services{
+				display: flex;
+				justify-content: space-between;
+			}
+			
+			.mybox{
+				background-color: #000;
+				width: 32%;
+				height: 200px;
+			}
+			
+			@media screen and (max-width: 480px){
+				.mybox{
+					width: 100%;
+				}
+				#services{ 
+					flex-direction: column;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<!-- div wrapper -->
+		<div>
+			<!-- 1st row -->
+			<div id="topmenu"></div>
+			<!-- 2nd row -->
+			<div id="slider"></div>
+			<!-- 3rd row -->
+			<div id="services">
+				<!-- flex items -->
+				<div class="mybox"></div>
+				<div class="mybox"></div>
+				<div class="mybox"></div>
+			</div>
+		</div>
+
+	</body>
+</html>

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+	<title>inline form</title>
+  </head>
+  <body>
+  <h2>Inline Form</h2>
+	<form class="row row-cols-lg-auto g-3 p-3">
+		<div class="col-12">
+			<label>Fullname</label>
+		</div>
+		<div class="col-12">
+			<input type="text" name="fullname" placeholder="enter fullname" class="form-control" />
+		</div>
+		<div class="col-12">
+			<label>Country</label>
+		</div>
+		<div class="col-12">
+			<select name="country" class="form-control">
+				<option value="">Choose Country</option>
+				<option value="nigeria">Nigeria</option>
+				<option value="australia">Australia</option>
+				<option value="mexico">Mexico</option>
+			</select>
+		</div>
+		<div class="col-12">
+			<input type="submit" name="submit" value="Subscribe" class="btn btn-primary" />
+		</div>
+		
+	</form>
+
+    <!-- Bootstrap JS -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

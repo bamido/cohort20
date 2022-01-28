@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Internal CSS</title>
+		<!-- Internal Stylesheet-->
+		<style type="text/css">
+		
+			/* element/tag selector */
+			body{
+				background-color: lightgreen;
+				color: white;
+			}
+			
+			h1{
+				color: yellow;
+			}
+			
+			/* attribute selector*/
+			[href]{
+				padding:15px;
+				border:1px solid white;
+				text-decoration: none;
+			}
+			
+			[src]{
+				width:200px;
+				height: 200px;
+				
+			}
+			
+			[alt=market]{
+				border-radius: 50%;
+			}
+			
+			/* ID selector */
+			#leftdiv{
+				border:1px solid white;
+				padding: 20px;
+				width: 50%;
+				box-sizing: border-box;
+				float: left;
+			}
+			
+			#rightdiv{
+				border:1px solid white;
+				padding: 20px;
+				width:50%;
+				box-sizing: border-box;
+				float:right;
+			}
+			
+			/*class selector*/
+			.blackbg{
+				background-color: black;
+			}
+			
+			[type='password']{
+			
+				border:1px solid red;
+			}
+			
+			[value="Sign Up"]{
+				background-color: green;
+				color: white;
+			}
+			
+			#mynav{
+				/*min-height:100px;
+				border:2px solid black;*/
+			}
+						
+						
+			
+		</style>
+	</head>
+	<body>
+		<h1 class="blackbg">Welcome To Moat Academy</h1>
+		<p>
+			As the battle for the 2023 
+			presidential ticket thickens, 
+			some Nigerians have expressed divergent opinions on the alleged planned defection of former President, Goodluck Jonathan, from the Peoples Democratic Party, PDP, to the ruling 
+			All Progressives Congress, APC.
+		</p>
+		
+		<h1>Moat Alumni</h1>
+		<p>
+			As the battle for the 2023 
+			presidential ticket thickens, 
+			some Nigerians have expressed divergent opinions on the alleged planned defection of former President, Goodluck Jonathan, from the Peoples Democratic Party, PDP, to the ruling 
+			All Progressives Congress, APC.
+		</p>
+		
+		<div>
+			<h2>Introduction To CSS</h2>
+			<p>
+				As the battle for the 2023 
+			presidential ticket thickens, 
+			some Nigerians have expressed divergent opinions on the alleged planned defection of former President, Goodluck Jonathan, from the Peoples Democratic Party, PDP, to the ruling 
+			All Progressives Congress, APC.
+			</p>
+		</div>
+		
+		<div id="mynav">
+			<a href="#">Home</a>
+			<a href="#">About Us</a>
+			<a href="#">Our Services</a>
+			<a href="#">FAQ</a>
+			<a href="https://facebook.com" target="_blank">Facebook</a>
+			
+			<hr>
+			
+			<img src="images/banner.jpg" alt="school" />
+			<img src="images/banner2.jpg" alt="stadium" />
+			<img src="images/continue.jpg" alt="market" />
+			
+		</div>
+		
+		<div id="leftdiv" class="blackbg">left text</div>
+		<div id="rightdiv" class="blackbg">right text</div>
+		
+		<input type="text" size="40" name="user">
+		<input type="password" size="40" name="pwd">
+		<input type="button" size="40" value="Sign Up">
+	
+	</body>
+
+
+
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RS Demo</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<style type="text/css">
+			@import 'css/mybg.css' screen and (min-width: 768px);
+			*{
+				box-sizing: border-box;
+			}
+			
+			.column {
+				width: 25%;
+				background-color:grey;
+				height:200px;
+				border:1px solid #fff;
+				float: left;
+			}
+			
+			@media screen and (max-width: 992px){
+				.column{
+					width:50%;
+					float: left;
+				}
+			}
+			
+			@media screen and (max-width: 600px){
+				.column{
+					width:100%;
+				}
+			}
+			
+			#background-video {
+			  width: 100vw;
+			  height: 100vh;
+			  object-fit: cover;
+			  position: fixed;
+			  left: 0;
+			  right: 0;
+			  top: 0;
+			  bottom: 0;
+			  z-index: -1;
+			}
+			
+			h1, h2 {
+			  color: white;
+			  font-family: Trebuchet MS;
+			  font-weight: bold;
+			  text-align: center;
+			}
+
+			h1 {
+			  font-size: 6rem;
+			  margin-top: 30vh;
+			}
+
+			h2 { font-size: 3rem; }
+			
+			@media (max-width: 750px) {
+				#background-video { display: none; }
+				body {
+				  background: url("https://assets.codepen.io/6093409/river.jpg") no-repeat;
+				  background-size: cover;
+				}
+			}
+		</style>
+
+	</head>
+	<body>
+		<section style="background-color: rgba(0,0,255,0.4); width: 100vw;
+			  height: 100vh; position: absolute;
+			  left: 0;
+			  right: 0;
+			  top: 0;
+			  bottom: 0;">
+		<video id="background-video" autoplay loop muted poster="https://assets.codepen.io/6093409/river.jpg">
+		  <source src="multimedia/algorithm.mp4" type="video/mp4">
+		</video>
+		<h1>Moat Academy for Developers.</h1>
+		<h2>Welcome to MOAT.</h2>
+		</section>
+		
+		<div class="column">
+			
+		</div>
+		<div class="column">
+			
+		</div>
+
+		<div class="column">
+			
+		</div>
+		<div class="column">
+			
+		</div>
+
+	</body>
+</html>

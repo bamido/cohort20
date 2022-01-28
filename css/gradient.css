@@ -1,0 +1,9 @@
+#screen1{
+	background: linear-gradient(to top, lightblue, white);
+	height: 600px;
+}
+
+#screen2{
+	background: radial-gradient(circle, red, orange, yellow,blue);
+	height:400px;
+}

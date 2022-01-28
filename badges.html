@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Badges Demo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+	
+	<!-- internal style -->
+	<style type="text/css">
+		.row, .row div {
+			border:1px solid #000;
+		}
+		.banner{
+			height:200px; background-image: url("images/bg1.jpg");
+		}
+	</style>
+  </head>
+  <body>
+	<div class="container">
+		<div class="row mt-2 justify-content-end">
+			<div class="col-md-8 ">
+				<span class="badge bg-primary rounded-pill">Inbox</span>
+				<span class="badge bg-danger">Spam</span>
+				<span class="badge bg-success rounded-pill">Sent Message</span>
+				<span class="badge bg-dark">Notifications</span>
+				
+				<button class="btn btn-warning position-relative">
+					Posts <span class="badge bg-success rounded-pill position-absolute top-0">13</span>
+				</button>
+			</div>
+			<div class="col-md-2">
+				ABCD
+			</div>
+		</div>
+		<!-- 2nd row -->
+		<div class="row align-items-center justify-content-center banner">
+			<div class="col-md-9">
+				<h2>Welcome to Moat</h2>
+				<p>
+					As the battle for the 2023 presidential ticket thickens, some Nigerians have expressed divergent opinions on the alleged planned defection of former President, Goodluck Jonathan.
+				</p>
+			</div>
+		</div>
+		<!-- 3rd row for buttons -->
+		<div class="row mt-md-2 pt-md-2">
+			<div class="col-md-4">
+				<button class="btn btn-primary btn-sm disabled">Read more</button>
+				<button class="btn btn-outline-primary btn-sm">Read more</button>
+			</div>
+			<div class="col-md-4 pt-md-3">
+				<input type="button" name="submit" value="Register" class="btn btn-success btn-lg" />
+				<input type="button" name="submit" value="Register" class="btn btn-outline-success" />
+			</div>
+			<div class="col-md-4">
+				<a href="#" class="btn btn-dark text-light" role="button">Contact Us</a>
+				<a href="#" class="btn btn-outline-dark" role="button">Contact Us</a>
+			</div>
+		</div>
+		
+		<!-- 4th row text colors -->
+		<div class="row">
+			<div class="col-md-4">
+				<span class="text-success">Eze goes to stadium everyday</span>
+			</div>
+			<div class="col-md-4">
+				<span class="text-danger">Eze goes to stadium everyday</span>
+				<img src="images/flowers.jpg" alt="image" class="img-fluid" />
+			</div>
+			<div class="col-md-4">
+				<span class="text-muted">Eze goes to stadium everyday</span>
+				<p class="text-capitalize text-left">As the battle for the 2023 presidential ticket thickens, some Nigerians have</p>
+				<p class="lead">As the battle for the 2023 presidential ticket thickens, some Nigerians have</p>
+				<p><a href="#" class="text-decoration-none">As the battle</a> for the 2023 presidential ticket thickens, some Nigerians have</p>
+			</div>
+		</div>
+		<!-- 5th row -->
+		<div class="row">
+			<div class="col-4 p-3">
+				<img src="images/flowers.jpg" alt="image" class="img-thumbnail" />
+			</div>
+			<div class="col-4 p-3">
+				<img src="images/flowers.jpg" alt="image" class="img-fluid rounded-end" />
+			</div>
+			<div class="col-4 p-3">
+				<img src="images/flowers.jpg" alt="image" class="img-fluid rounded-circle" />
+			</div>
+		
+		</div>
+		
+	</div>
+
+    <!-- Bootstrap JS -->
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

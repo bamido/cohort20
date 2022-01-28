@@ -1,0 +1,20 @@
+/*Konga Stylesheet*/
+
+body{
+	color: #808080;
+	font-size: 18px !important;
+	background-color: #fff123 !important;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: orange;
+}
+
+li{
+	display: inline-block;
+	padding: 10px;
+}
